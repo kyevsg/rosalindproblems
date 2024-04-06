@@ -1,3 +1,5 @@
+# Transcribing DNA into RNA
+
 def transcription(dna_string):
     """
     This function transcribes a DNA sequence to an RNA one.
