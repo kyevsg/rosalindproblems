@@ -7,7 +7,7 @@ fn dna_count(dna_string: &str) {
     This function counts the number of each type of nucleotide within a DNA sequence.
 
     Input: a DNA string
-    Returns: the counts of A, C, G, and T within the DNA string as four integers separated by spaces
+    Prints: the counts of A, C, G, and T within the DNA string as four integers separated by spaces
     */
     let mut nuc_map = HashMap::new(); // creating hash map to store nucleotide counts
     for nuc in dna_string.chars() { // iterating over DNA string 
