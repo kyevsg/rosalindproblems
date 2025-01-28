@@ -14,7 +14,9 @@ fn dna_count(dna_string: &str) {
         let counter = nuc_map.entry(nuc).or_insert(0);
         *counter += 1
     }
-    nuc_map
+    for value in nuc_map.values() {
+        print!("{} ", value);
+    }
 }
 
 fn main() {
