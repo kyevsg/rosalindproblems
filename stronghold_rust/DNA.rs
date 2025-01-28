@@ -4,4 +4,7 @@
 
 
 
-fn test_dna
+fn dna_count() {
+    let input = ;
+    let output = count(input);
+}
