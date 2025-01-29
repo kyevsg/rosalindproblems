@@ -18,7 +18,3 @@ fn dna_count(dna_string: &str) {
         print!("{} ", value);
     }
 }
-
-fn main() {
-    dna_count(); // enter DNA string here
-}
