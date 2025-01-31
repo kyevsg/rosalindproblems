@@ -10,7 +10,3 @@ fn transcription(dna_string: &str) {
     let rna_string = dna_string.replace("T", "U"); // replace T nucleotides with U
     print!("{}", rna_string);
 }
-
-fn main() {
-    transcription(); // enter DNA string here
-}
