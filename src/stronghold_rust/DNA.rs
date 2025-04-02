@@ -14,7 +14,9 @@ fn dna_count(dna_string: &str) {
         let counter = nuc_map.entry(nuc).or_insert(0);
         *counter += 1
     }
-    for value in nuc_map.values() {
+    let mut sorted: Vec<_> = nuc_map.iter().collect(); // going to sort the keys
+    sorted.sort_by_key(|a| a.0);
+    for (key, value) in sorted.iter() { // possibility to improve this later
         print!("{} ", value);
     }
 }
